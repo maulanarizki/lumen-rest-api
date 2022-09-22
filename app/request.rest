@@ -1,0 +1,13 @@
+###
+# Get Post 
+GET http://lumen-rest-api.test/api/posts
+
+###
+# Post Post (store)
+POST http://lumen-rest-api.test/api/posts
+Content-Type: application/json
+
+{
+    "title": "Maulana",
+    "body": "Maulana Rizki"
+}
